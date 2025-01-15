@@ -1,13 +1,13 @@
 ---
-import '../styles/global.scss';
-import { SiteTitle } from '../consts';
+import "../styles/global.scss";
+import { SiteTitle } from "../consts";
 ---
 
 <header>
-	<nav>
-		<h2 id="site_title">
-			<a href="/">
-				<svg
+  <nav>
+    <h2 id="site_title">
+      <a href="/">
+        <!-- <svg
 					aria-hidden="true"
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -37,18 +37,21 @@ import { SiteTitle } from '../consts';
 							></stop></linearGradient
 						></defs
 					></svg
-				>
-				{SiteTitle}
-			</a>
-		</h2>
-		<div class="links">
-			<a href="mailto:contactus@yourwebsite.com">Contact</a>
-		</div>
-	</nav>
+				> -->
+        {SiteTitle}
+      </a>
+    </h2>
+    <div class="links">
+      <a href="mailto:store@berkeleycountysc.gov">Contact</a>
+    </div>
+  </nav>
 </header>
 
 <style>
-	.links a {
-		text-decoration: none;
-	}
+  .links a {
+    text-decoration: none;
+  }
+  .mysvg {
+    transform: rotate(-20deg);
+  }
 </style>

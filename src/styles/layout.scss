@@ -217,12 +217,19 @@ nav {
 	margin-bottom: 8px;
 	padding: 4px 12px;
 	color: $white;
+	// background: linear-gradient(
+	// 	25deg,
+	// 	color(purple, 800),
+	// 	color(purple, 700),
+	// 	mix(color(purple, 500), color(orange, 500)),
+	// 	color(orange, 500)
+	// );
 	background: linear-gradient(
 		25deg,
-		color(purple, 800),
-		color(purple, 700),
-		mix(color(purple, 500), color(orange, 500)),
-		color(orange, 500)
+		color(#0000ff, 800),
+		color(#0000ff, 700),
+		mix(color(#0000ff, 500), color(#008000, 500)),
+		color(#008000, 500)
 	);
 	border-radius: 8px;
 }
